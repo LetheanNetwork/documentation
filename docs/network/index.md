@@ -21,6 +21,14 @@ The Lethean network is a self-regulating infrastructure focused on **confidentia
 
     [:octicons-arrow-right-24: View Architecture](architecture.md)
 
+-   :material-scale-balance: **Axioms of Life**
+
+    ---
+
+    The ethical framework explained in plain terms
+
+    [:octicons-arrow-right-24: Learn the Axioms](axioms.md)
+
 -   :material-shield-check: **Gateway (CM-OS)**
 
     ---
