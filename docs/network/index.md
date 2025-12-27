@@ -1,7 +1,40 @@
-# Lethean Network Overview
+# Lethean Network
 
-The Lethean network began in 2017 as the first encrypted decentralized VPN (dVPN). Initially launched as a prototype, the project was soon handed over to the open-source community. Since then, Lethean has evolved far beyond its original concept, driven by collaborative design and continuous innovation.
+The Lethean network is a self-regulating infrastructure focused on **confidentiality** and **data sovereignty**. Users retain full control over their data, privacy, and digital identity, while the network enforces security and trust through decentralized protocols.
 
-Today, Lethean is architected as a self-regulating network focused on confidentiality and data sovereignty. This means that users retain full control over their data, privacy, and digital identity, while the network itself enforces security and trust through decentralized protocols. The system is designed to adapt and respond to threats and changes without relying on centralized authorities, ensuring robust privacy and resilience.
+## Core Principles
 
-As we implement the virtual network stack, this documentation will be expanded to detail the technical architecture, governance mechanisms, and the unique features that enable self-regulation and user sovereignty. Stay tuned for updates as the network continues to grow and mature.
+- **Sovereignty**: Your data remains under your control
+- **Confidentiality**: Transactions and communications are cryptographically protected
+- **Resilience**: No central point of failure or control
+- **Ethics**: Protocol-level enforcement of the [Axioms of Life](../web3/labs/gateway.md)
+
+## Documentation
+
+<div class="grid cards" markdown>
+
+-   :material-sitemap: **Architecture**
+
+    ---
+
+    Technical overview of network layers, consensus, and data flow
+
+    [:octicons-arrow-right-24: View Architecture](architecture.md)
+
+-   :material-shield-check: **Gateway (CM-OS)**
+
+    ---
+
+    Deep dive into the Unified Ethical Protocol Stack (UEPS)
+
+    [:octicons-arrow-right-24: Explore Gateway](../web3/labs/gateway.md)
+
+</div>
+
+## Quick Links
+
+| Topic | Description |
+|-------|-------------|
+| [Run a Node](../getting-started/chain.md) | Support the network by running infrastructure |
+| [Tokenomics](../web3/tokenomics.md) | Economic model and staking |
+| [Developer SDKs](../getting-started/developer/sdks.md) | Build on Lethean |

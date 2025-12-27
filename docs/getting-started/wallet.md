@@ -1,8 +1,15 @@
 ---
-
 title: Wallet
+description: Set up and secure your Lethean wallet for sending, receiving, and storing LTHN.
 ---
+
 # Lethean Wallet
+
+This guide covers setting up the CLI wallet, security best practices, and common operations.
+
+## Quick Start
+
+Choose your platform and download the CLI tools. You can connect to a remote node immediately—no blockchain download required.
 
 !!! info
 
@@ -159,4 +166,95 @@ title: Wallet
     ``` shell
     cd $HOME/Lethean/wallets && ../cli/lethean-wallet-cli --daemon-host=seed.lethean.io --wallet-file=wallet
     ```
+
+---
+
+## Security Best Practices
+
+### Protect Your Seed Phrase
+
+When you create a wallet, you'll receive a **25-word seed phrase**. This is the master key to your funds.
+
+!!! danger "Critical Security"
+
+    - **Write it down on paper**—not digitally
+    - Store in a secure, fireproof location
+    - Never share it with anyone
+    - Never enter it on websites or send via email/chat
+    - Anyone with your seed phrase has full control of your wallet
+
+### Verify Your Backup
+
+After writing down your seed phrase, verify it works:
+
+1. Create a test wallet with a small amount
+2. Close the wallet
+3. Restore from your seed phrase
+4. Confirm the balance appears correctly
+
+### Use Strong Passwords
+
+When prompted for a wallet password:
+
+- Use at least 16 characters
+- Mix uppercase, lowercase, numbers, and symbols
+- Don't reuse passwords from other services
+- Consider a password manager
+
+### Secure Your Environment
+
+| Risk | Mitigation |
+|------|------------|
+| Malware | Use a clean, updated operating system |
+| Keyloggers | Consider a hardware wallet for large holdings |
+| Phishing | Only download from official sources |
+| Physical access | Encrypt your disk, lock your computer |
+
+### Remote Node Security
+
+When using `--daemon-host` with a remote node:
+
+- Your **view key** is shared with the remote node
+- The node can see your incoming transactions
+- Your **spend key** remains local—funds cannot be stolen
+- For maximum privacy, run your own node
+
+### Recommended Remote Nodes
+
+| Host | Location |
+|------|----------|
+| `seed.lethean.io` | Official seed node |
+| `nodes.hashvault.pro` | Community node |
+
+---
+
+## Troubleshooting
+
+### Wallet Won't Sync
+
+1. Check your internet connection
+2. Verify the daemon host is reachable
+3. Try an alternative remote node
+4. Check firewall settings (port 48772)
+
+### Lost Password
+
+If you forget your wallet password but have your seed phrase:
+
+1. Create a new wallet file
+2. Restore from seed phrase
+3. Set a new password
+
+!!! warning
+    If you lose both your password AND seed phrase, your funds are **permanently inaccessible**.
+
+### Balance Shows Zero
+
+After restoring from seed, you may need to rescan:
+
+```shell
+rescan_bc
+```
+
+This command (run inside the wallet CLI) rescans the blockchain for your transactions.
 
