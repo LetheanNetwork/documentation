@@ -24,7 +24,7 @@ import (
 	"context"
 	"fmt"
 	"os"
-	openapiclient "github.com/letheanVPN/blockchain/utils/sdk/client/go"
+	openapiclient "github.com/LetheanNetwork/blockchain/utils/sdk/client/go"
 )
 
 func main() {
@@ -90,7 +90,7 @@ import (
 	"context"
 	"fmt"
 	"os"
-	openapiclient "github.com/letheanVPN/blockchain/utils/sdk/client/go"
+	openapiclient "github.com/LetheanNetwork/blockchain/utils/sdk/client/go"
 )
 
 func main() {

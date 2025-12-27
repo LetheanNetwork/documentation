@@ -78,7 +78,7 @@ The build process can be customized using `docker build --build-arg` flags.
 | `THREADS`       | `1`                                            | Number of parallel threads to use for compilation.                                                              |
 | `BUILD_BRANCH`  | `dev-configure-testnet-1`                      | The git branch to clone and build if `BUILD_LOCAL=0`.                                                           |
 | `BUILD_LOCAL`   | `1`                                            | If set to `1`, it builds from the local source code in the Docker context. If `0`, it clones from `BUILD_REPO`. |
-| `BUILD_REPO`    | `https://github.com/letheanVPN/blockchain.git` | The git repository to clone when `BUILD_LOCAL=0`.                                                               |
+| `BUILD_REPO`    | `https://github.com/LetheanNetwork/blockchain.git` | The git repository to clone when `BUILD_LOCAL=0`.                                                               |
 | `BUILD_TARGET`  | `gcc-linux-armv8`                              | The Conan build profile target. Profiles are located in `cmake/profiles/`.                                      |
 | `BUILD_FOLDER`  | `build/release`                                | The output folder for the build.                                                                                |
 | `BUILD_TYPE`    | `Release`                                      | The CMake build type (e.g., `Release`, `Debug`).                                                                |

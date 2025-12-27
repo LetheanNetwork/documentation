@@ -23,7 +23,7 @@ go get golang.org/x/net/context
 Put the package under your project folder and add the following in import:
 
 ```go
-import lthn "github.com/letheanVPN/blockchain/utils/sdk/client/go"
+import lthn "github.com/LetheanNetwork/blockchain/utils/sdk/client/go"
 ```
 
 To use a proxy, set the environment variable `HTTP_PROXY`:

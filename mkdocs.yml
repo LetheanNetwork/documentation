@@ -1,7 +1,7 @@
 site_name: Lethean Documentation
-copyright: LetheanVPN &copy; EUPL-1.2 &mdash; 2017 to &infin; and beyond
-repo_url: https://github.com/letheanVPN/documentation
-repo_name: letheanVPN/documentation
+copyright: Lethean &copy; EUPL-1.2 &mdash; 2017 to &infin; and beyond
+repo_url: https://github.com/LetheanNetwork/documentation
+repo_name: LetheanNetwork/documentation
 edit_uri: edit/main/docs/
 site_url: https://lt.hn
 theme:
@@ -67,12 +67,12 @@ theme:
 extra:
   generator: false
   social:
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/letheanVPN
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/LetheanNetwork
     - icon: fontawesome/brands/docker
       link: https://hub.docker.com/u/lthn
     - icon: fontawesome/brands/github
-      link: https://github.com/letheanVPN
+      link: https://github.com/LetheanNetwork
 extra_css:
   - assets/stylesheets/extra.css
 plugins:
@@ -92,7 +92,7 @@ plugins:
           fallback_to_build_date: true
           enable_creation_date: true
       git-committers:
-          repository: letheanVPN/documentation
+          repository: LetheanNetwork/documentation
           branch: main
   - meta:
   - optimize:

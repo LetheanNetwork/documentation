@@ -137,6 +137,6 @@ The new Lethean chain is a fresh start — rooted in its original mission, power
 
 ## 📎 Links
 
-- **GitHub**: [https://github.com/letheanVPN](https://github.com/letheanVPN)  
+- **GitHub**: [https://github.com/LetheanNetwork](https://github.com/LetheanNetwork)  
 - **Website**: [https://lt.hn](https://lt.hn)
 - **Discord**: [https://discord.com/invite/lethean-lthn-379876792003067906](https://discord.com/invite/lethean-lthn-379876792003067906)

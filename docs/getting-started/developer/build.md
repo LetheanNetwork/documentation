@@ -13,7 +13,7 @@
 ## Cloning
 
 Be sure to clone the repository properly, with `--recursive` flag, or you'll get angry:<br/>
-`git clone --recursive https://github.com/letheanVPN/blockchain.git`
+`git clone --recursive https://github.com/LetheanNetwork/blockchain.git`
 
 ## Building
 

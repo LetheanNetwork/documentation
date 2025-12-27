@@ -8,14 +8,14 @@ title: Wallet
 
     === "Windows"
 
-        [Download Windows CLI](https://github.com/letheanVPN/blockchain-iz/releases/latest/download/windows.tar){ .md-button }
+        [Download Windows CLI](https://github.com/LetheanNetwork/blockchain-iz/releases/latest/download/windows.tar){ .md-button }
         [Blockchain Export](https://seed.lethean.io/blockchain.raw){ .md-button }
 
         Remote Hosts: `seed.lethean.io`, `nodes.hashvault.pro`
 
     === "MacOS"
 
-        [Download macOS CLI](https://github.com/letheanVPN/blockchain-iz/releases/latest/download/lethean-cli-macos.zip){ .md-button }
+        [Download macOS CLI](https://github.com/LetheanNetwork/blockchain-iz/releases/latest/download/lethean-cli-macos.zip){ .md-button }
         [Blockchain Export](https://seed.lethean.io/blockchain.raw){ .md-button }
 
         Remote Hosts: `seed.lethean.io`, `nodes.hashvault.pro`
@@ -23,7 +23,7 @@ title: Wallet
 
     === "Linux"
 
-        [Download Linux CLI](https://github.com/letheanVPN/blockchain-iz/releases/latest/download/linux.tar){ .md-button }
+        [Download Linux CLI](https://github.com/LetheanNetwork/blockchain-iz/releases/latest/download/linux.tar){ .md-button }
         [Blockchain Export](https://seed.lethean.io/blockchain.raw){ .md-button }
 
         Remote Hosts: `seed.lethean.io`, `nodes.hashvault.pro`

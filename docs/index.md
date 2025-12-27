@@ -14,7 +14,7 @@ hide:
       <span class="badge">Free Forever</span>
       <span class="badge">Sovereign Control</span>
     </div>
-    <a href="https://github.com/letheanVPN/blockchain/tree/dev-api?tab=readme-ov-file#lethean-networkethics-encoded" class="cta-button">Begin Integration</a>
+    <a href="https://github.com/LetheanNetwork/blockchain/tree/dev-api?tab=readme-ov-file#lethean-networkethics-encoded" class="cta-button">Begin Integration</a>
   </div>
 </div>
 
@@ -137,11 +137,11 @@ hide:
   
   <div class="cta-buttons">
     <a href="/getting-started/wallet.html" class="cta-button">Quick Start Guide</a>
-    <a href="https://github.com/letheanVPN" class="cta-button secondary">View on GitHub</a>
+    <a href="https://github.com/LetheanNetwork" class="cta-button secondary">View on GitHub</a>
   </div>
 
   <div class="community-links" style="margin-top: 2rem;">
     <a href="https://discord.com/invite/lethean-lthn-379876792003067906" class="community-link">Discord</a>
-    <a href="https://twitter.com/letheanVPN" class="community-link">Twitter</a>
+    <a href="https://x.com/LetheanNetwork" class="community-link">X</a>
   </div>
 </div>
